@@ -1,0 +1,46 @@
+body{
+    background-color: whitesmoke;
+}
+#parent{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top:-10%;
+}
+#myCanvas{
+    border: 5px blueviolet solid;
+    border-radius: 20px;
+    width:55%;
+    height: auto;
+    margin:10%;
+    background-color:white;
+}
+#tools{
+    border: 5px blueviolet solid;
+    width:20%;
+    margin:5%;
+    background-color: whitesmoke;
+}
+#title{
+    font-family: 'Dancing Script', cursive;
+    font-size:5vw;
+    text-align: center;
+}
+#title-area{
+    width:55%;
+    margin-left:10%;
+}
+#brush1{
+  position: absolute;
+  left: 0px;
+  top: -20px;
+  z-index: -1;
+  width:30%;
+}
+#brush2{
+    position: absolute;
+    right: 0px;
+    top: -70px;
+    z-index: -1;
+    width:25%;
+}
